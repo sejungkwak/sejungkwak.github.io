@@ -1,7 +1,7 @@
 # main links
-main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+# main:
+  # - title: "Quick-Start Guide"
+  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
@@ -10,3 +10,22 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+modules:
+  - title: "Semester 1, 2024"
+    children:
+      - title: "Web Development"
+        url: /wd/
+      - title: "Software Engineering I"
+        url: /se/
+      - title: "Modelling and Database Design"
+        url: /db/
+
+  #- title: "Semester 2, 2025"
+  #  children:
+  #    - title: ""
+  #      url: //
+  #    - title: ""
+  #      url: //
+  #    - title: ""
+  #      url: //

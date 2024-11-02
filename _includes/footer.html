@@ -1,6 +1,7 @@
 <div class="page__footer-follow">
   <ul class="social-icons">
-    {% if site.data.ui-text[site.locale].follow_label %}
+    {% if site.data.ui-text[site.locale].follow_label and (site.footer.links == nil) and (site.atom_feed.hide != true)
+    %}
       <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
     {% endif %}
 
