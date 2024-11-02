@@ -1,9 +1,8 @@
 ---
-layout: single
-classes: home-cover
+layout: home
 permalink: /
 ---
 
-<div class="cover-image">
+<div>
     <img src="{{ '/assets/images/cover.jpg' | relative_url }}" alt="Hello World">
 </div>
